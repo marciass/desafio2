@@ -1,0 +1,42 @@
+.header_box .navbar{
+    background-color: black;
+    opacity: 0.8;
+    border-bottom: 2px solid #21e0ea;
+}
+.header_box .navbar-toggler{
+    background-color: #0dcaf0;
+    border: 1px solid #055160;
+}
+.nav-link{
+    color: white !important;
+    transition-duration: 0.5s;
+}
+.nav-link:hover{
+   color: #21e0ea !important;
+}
+.logo-box .logo{
+    color: #21e0ea;
+}
+.logo-box .logo:hover{
+    color: #148d94;
+}
+.titulo{
+    background-color: black !important;
+    opacity: 0.8;
+}
+.btn-outline-success {
+    color: #21e0ea;
+    border-color: #21e0ea;
+}
+
+
+
+
+
+
+
+
+.copyrigh{
+    text-align: center;
+}
+
