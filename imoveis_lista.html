@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Imob. Beira Mar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+
+</head>
+
+<body>
+    <!--  Menu  -->
+    <header class="header__block">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <div class="logo-box">
+            <a class="navbar-brand logo" href="index.html">IMOBILIÁRIA BEIRA MAR</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">INICIAL</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="imoveis_lista.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  VENDAS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="imoveis_lista.html">APARTAMENTOS</a></li>
+                  <li><a class="dropdown-item" href="imoveis_lista.html">CASAS</a></li>
+                  <li><a class="dropdown-item" href="imoveis_lista.html">COMERCIAL</a></li>
+                  <li><a class="dropdown-item" href="imoveis_lista.html">TERRENOS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="imoveis_lista.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  EMPREENDIMENTOS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="imoveis_lista.html">LANÇAMENTOS</a></li>
+                  <li><a class="dropdown-item" href="imoveis_lista.html">EM OBRAS</a></li>
+                  <li><a class="dropdown-item" href="imoveis_lista.html">PRÉ-LANÇAMENTOS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="imoveis_lista.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ALUGUEL ANUAL
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="imoveis_lista.html">APARTAMENTOS</a></li>
+                  <li><a class="dropdown-item" href="imoveis_lista.html">CASAS</a></li>
+                  <li><a class="dropdown-item" href="imoveis_lista.html">COMERCIAL</a></li>
+                  <li><a class="dropdown-item" href="imoveis_lista.html">TERRENOS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="imoveis_lista.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  TEMPORADA
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="imoveis_lista.html">APARTAMENTOS</a></li>
+                  <li><a class="dropdown-item" href="imoveis_lista.html">CASAS</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contato.html">CONTATO</a>
+              </li>
+            </ul>
+            <form action="imoveis_lista.html" class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+              <button class="logo-box logo btn btn-outline-success" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+
+
+
+
+
+
+
+ 
+    <section class="Block__imoveis-listagem">
+
+      <div class="container">
+        <div class="row">
+    
+          <div class="col-12 col-lg-3 mt-5">
+            <div class="row">
+              <h2>Filtros </h2>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-10">
+                <form>
+          
+                  <div class="form-group mt-2 col-12">
+                    <label for="inputDormitorio">Dormitorios</label>
+                    <select id="inputDormitorio" class="form-control">
+                      <option selected>Escolher...</option>
+                      <option value="1"> 1 </option>
+                      <option value="2"> 2 </option>
+                      <option value="3"> 3 </option>
+                      <option value="4"> 4 </option>
+                    </select>
+                  </div>
+
+                  <div class="form-group mt-2 col-12">
+                    <label for="inputGaragem">Garagem</label>
+                    <select id="inputGaragem" class="form-control">
+                      <option selected>Vagas...</option>
+                      <option value="1"> 1 </option>
+                      <option value="2"> 2 </option>
+                      <option value="3"> 3 </option>
+                      <option value="4"> 4 </option>
+                    </select>
+                  </div>
+
+                  <div class="form-group mt-4 col-12">
+
+                    <label for="inputvalormin" class="form-label">Valor Minimo</label>
+                    <input type="range" class="form-range" id="inputvalormin">
+
+                  </div>
+
+                  <div class="form-group mt-2 col-12">
+
+                    <label for="inputvalormax" class="form-label">Valor Máximo</label>
+                    <input type="range" class="form-range" id="inputvalormax">
+
+                  </div>
+
+
+
+                  <div class="form-group mt-2 col-12">
+                    
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Mobiliado
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Não Mobiliado
+                      </label>
+                    </div>
+                  </div>
+
+
+                  
+
+
+                  <div class="form-group mt-2 col-12">
+                    Ordenação
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="ordemvalor" id="flexRadioDefault1" checked>
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Maior Valor
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="ordemvalor" id="flexRadioDefault2">
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Menor Valor
+                      </label>
+                    </div>
+                  </div>
+
+
+          
+                </form>
+              </div>
+            </div>
+
+            
+            
+          </div>
+
+
+
+          <div class="col-12 col-lg-9 mt-5">
+            <div class="row">
+              <h2>Imóveis encontrados </h2>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-5">
+
+                <div class="row">
+                  <div class="col-12 col-lg-4">                
+                    
+                    <img width="100%" src="src/img/apartamento_cod_666.jpg" alt="descrição imagem">
+                                                    
+                  </div>
+                  <div class="col-12 col-lg-5 mt-3">
+                    <h3>Apartamento com 4 suítes em Meia Praia!</h3>
+                    <p class="codigoImovel">Cód: 666</p>          
+                    <p class="mt-2">Centro - Itapema/SC</p>
+                    <p>Dorm: 4  Vagas: 3  Área: 227.05m  Mobília: Não</p>
+                  </div>
+
+                  <div class="col-12 col-lg-3 mt-3 justify-content-center">
+                    <p class="valorImovel">R$ 1.250.000,00</p>
+                    <a class="button_style_2">MAIS DETALHES</a>          
+                    
+                  </div>
+                </div>                
+
+              </div>
+
+
+              <div class="col-12 mb-5">
+
+                <div class="row">
+                  <div class="col-12 col-lg-4">                
+                    
+                    <img width="100%" src="src/img/apartamento_cod_666.jpg" alt="descrição imagem">
+                                                    
+                  </div>
+                  <div class="col-12 col-lg-5 mt-3">
+                    <h3>Apartamento com 4 suítes em Meia Praia!</h3>
+                    <p class="codigoImovel">Cód: 666</p>          
+                    <p class="mt-2">Centro - Itapema/SC</p>
+                    <p>Dorm: 4  Vagas: 3  Área: 227.05m  Mobília: Não</p>
+                  </div>
+
+                  <div class="col-12 col-lg-3 mt-3 justify-content-center">
+                    <p class="valorImovel">R$ 1.050.000,00</p>
+                    <a href="#" class="button_style_2">MAIS DETALHES</a>          
+                    
+                  </div>
+                </div>                
+
+              </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+          </div>
+    
+        </div>
+    
+      </div>
+    </section>
+
+    
+
+
+
+
+
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src=""></script>
+
+    <footer class="block__footer bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <p class="endereco mt-3">Endereço: R. 700, 307 - Varzea, Itapema - SC, 88220-000</p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div>
+              <p class="contato">CONTATO +55(47) 3261-9800 </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div>
+              <p class="copyright">&copy; Copyright IMOBILIÁRIA BEIRA MAR - 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </body>
+
+
+    </html>

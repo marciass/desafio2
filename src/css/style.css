@@ -1,42 +1,163 @@
-.header_box .navbar{
-    background-color: black;
-    opacity: 0.8;
-    border-bottom: 2px solid #21e0ea;
+@font-face {
+    font-family: ArchitectsDaughter;
+    src: url(../fonts/ArchitectsDaughter-Regular.ttf)
 }
-.header_box .navbar-toggler{
-    background-color: #0dcaf0;
-    border: 1px solid #055160;
+
+h1 {
+    font-family: ArchitectsDaughter;
 }
+h2 {
+    font-family: ArchitectsDaughter;
+}
+h3 {
+    font-family: ArchitectsDaughter;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    z-index:999;
+  
+}
+
+    .header__block .navbar{
+        background-color: black;
+        opacity: 1;
+        border-bottom: 2px solid #21e0ea;
+    }
+        .header__block .navbar-toggler{
+            background-color: #0dcaf0;
+            order: 1px solid #055160;
+
+        }
+
+
 .nav-link{
     color: white !important;
     transition-duration: 0.5s;
 }
-.nav-link:hover{
-   color: #21e0ea !important;
+    .nav-link:hover{
+    color: #21e0ea !important;
+    }
+        .navbar .logo-box .logo {
+            color: #0d676c;
+        }
+            .navbar .logo-box .logo:hover {
+                color: #0dcaf0;
+            }
+
+
+main {
+    padding-top:58px;
+    background: rgb(113,174,177);
+    background: linear-gradient(90deg, rgba(113,174,177,1) 0%, rgba(193,211,214,1) 8%, rgba(226,229,229,1) 50%, rgba(193,211,214,1) 93%, rgba(113,174,177,1) 100%);
 }
-.logo-box .logo{
-    color: #21e0ea;
+
+
+.block__apresentacao .logo {
+     color: #0d676c;
+    font-family: ArchitectsDaughter;
 }
-.logo-box .logo:hover{
-    color: #148d94;
-}
-.titulo{
-    background-color: black !important;
-    opacity: 0.8;
-}
+
 .btn-outline-success {
     color: #21e0ea;
     border-color: #21e0ea;
+    transition-duration: 0.5s;
+}
+    .btn-outline-success:hover {
+        color: white;
+        background-color: #21e0ea;
+    }
+
+.block__home-imoveis-destaque .titulo {
+    color: #0d676c;
+}
+
+.block__home-imoveis-destaque .valorImovel {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.block__home-imoveis-destaque .codigoImovel {
+    color: #860606;
+    font-weight: bold;
 }
 
 
 
 
-
-
-
-
-.copyrigh{
+.block__footer .endereco{
+    justify-content: center;
     text-align: center;
+    color: white;
 }
 
+    .block__footer .contato{
+        justify-content: center;
+        text-align: center;
+        color: #0dcaf0;
+    }
+
+        .block__footer .copyright {
+            justify-content: center;
+            text-align: center;
+            color: white;
+
+        }
+
+.button_style_1{
+    background-color: #0d676c;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    width: 150px;
+    border-radius: 22px;
+}
+    .button_style_1:hover{
+        color: #212529;
+        background-color: #21e0ea;
+    }
+.button_style_2{
+    background-color: #860606;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 8px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+}
+    .button_style_2:hover{
+        background-color: #0dcaf0;
+        color: black;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+.block__informacoes-contato{
+    width: 100%;
+    border: 1px solid #0d676c;
+    border-radius: 20px;
+    padding: 140px 0px 140px 0px;
+    text-align: center;
+    
+
+}
+
+
+.Block__imoveis-listagem .valorImovel{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+    .Block__imoveis-listagem .codigoImovel{
+        color: #860606;
+        font-weight: bold;
+    }
